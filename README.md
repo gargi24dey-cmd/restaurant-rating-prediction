@@ -211,21 +211,21 @@ restaurant-rating-prediction/
 ├── README.md
 │
 ├── data/
-│   ├── zomato.csv
-│   └── swiggy.csv
+│   ├── zomato.csv - The original dataset is approximately 500 MB and therefore is not included in the GitHub repository due to GitHub's file-size limitations.
+                     https://www.kaggle.com/datasets/himanshupoddar/zomato-bangalore-restaurants
+│   └── swiggy.csv - Included in this repository for reproducibility.
 │
 ├── orange/
-│   ├── Food_and_Beverages.ows
+│   ├── restaurant rating prediction.ows
 │   
 │
 ├── report/
-│   └── Food_and_Beverages.pdf
+│   └── Restaurant_Rating_Prediction_Report.pdf
 │
 └── images/
     ├── zomato_distribution.png
     ├── cost_boxplot.png
     ├── votes_boxplot.png
-    ├── confusion_matrix.png
     └── roc_comparison.png
 ```
 
